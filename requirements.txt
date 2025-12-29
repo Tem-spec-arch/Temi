@@ -1,1 +1,2 @@
-# requirements
+ccxt
+python-dotenv
