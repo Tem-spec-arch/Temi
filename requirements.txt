@@ -1,2 +1,4 @@
 ccxt
-python-dotenv
+pandas
+ta
+numpy
