@@ -9,8 +9,10 @@ import os
 
 # ================= CONFIG =================
 
-API_KEY = "YOUR_API_KEY"
-API_SECRET = "YOUR_API_SECRET"
+import os
+
+API_KEY = os.getenv("R74MGDu1Nyzpcp8cqe")
+API_SECRET = os.getenv("NnWGVkCw7az8xCd1nYAVxTHU2FxpYkcSebm9")
 
 TIMEFRAME_ENTRY = "1m"
 TIMEFRAME_TREND = "5m"
@@ -41,8 +43,8 @@ PAIRS = {
 }
 
 exchange = ccxt.bybit({
-    "apiKey": API_KEY,
-    "secret": API_SECRET,
+    "apiKey": R74MGDu1Nyzpcp8cqe,
+    "secret": NnWGVkCw7az8xCd1nYAVxTHU2FxpYkcSebm9,
     "enableRateLimit": True,
     "options": {"defaultType": "future"}
 })
